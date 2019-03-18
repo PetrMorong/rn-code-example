@@ -1,0 +1,5 @@
+query ValidateAddress($address: ValidationAddress!) {
+  validate {
+    address(address: $address)
+  }
+}

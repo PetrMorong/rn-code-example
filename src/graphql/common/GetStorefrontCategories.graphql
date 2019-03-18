@@ -1,0 +1,8 @@
+query GetStorefrontCategories {
+  category {
+    id
+    title
+    icon
+    active
+  }
+}

@@ -1,0 +1,13 @@
+query GetCurrentUserInfo {
+  me {
+    uid
+    zip
+    city
+    photoURL
+    displayName
+    latitude
+    longitude
+    type
+    streetAddress
+  }
+}
